@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-console-to-log",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Rewrites console statements if using custom  logger",
   "keywords": [
     "eslint",
