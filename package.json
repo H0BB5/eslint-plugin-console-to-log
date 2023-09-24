@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-console-to-log",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rewrites console statements if using custom  logger",
   "keywords": [
     "eslint",
@@ -8,7 +8,7 @@
     "eslint-plugin"
   ],
   "author": "Dylan Hobbs",
-  "main": "/lib/index.js",
+  "main": "lib/index.js",
   "files": [
     "lib",
     "README.md",
