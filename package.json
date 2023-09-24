@@ -16,12 +16,13 @@
   ],
   "scripts": {
     "build": "tsc",
+    "clean": "rimraf lib",
+    "prep": "npm run clean && npm run build",
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
     "lint:js": "eslint .",
     "test": "mocha tests --recursive",
-    "update:eslint-docs": "eslint-doc-generator",
-    "prepublishOnly": "npm run clean && npm run build"
+    "update:eslint-docs": "eslint-doc-generator"
   },
   "devDependencies": {
     "@types/eslint": "^8.44.3",
